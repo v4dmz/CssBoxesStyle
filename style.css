@@ -1,0 +1,56 @@
+p.one {
+    border-style: solid;
+    border-color: #0088dd;
+}
+
+p.two {
+    border-style: dotted;
+
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+p.three {
+    border-style: dashed;
+    border-color: #0088dd;
+}
+
+p.four {
+    border-style: double;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+p.five {
+    border-style: groove;
+}
+
+p.six {
+    border-style: ridge;
+    border-color: #0088dd;
+    padding: 60px;
+    width: 300px;
+    border: 30px solid;
+
+}
+
+p.seven {
+    border-style: inset;
+    border-color: #bbbbaa #111111 #ee3e80 #0088dd;
+}
+
+p.eight {
+    border-style: outset;
+
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    color: rgb(228, 61, 61);
+    -moz-box-shadow: 0 0 10px #777777;
+-webkit-box-shadow: 0 0 10px #777777;
+box-shadow: 0 0 10px #777777;
+}
+
+li.coming-soon {
+    display: none;
+}
